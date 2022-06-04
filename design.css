@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background-color: #E6E6FA ;
+    /*, */
+}
+#canvas{
+    border: 1px solid ;
+ 
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#reset{
+    margin-top: 2rem;
+    border: 2px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 1rem;
+    transition: all 3s;
+
+    background-color: white;
+   cursor: crosshair;
+
+}
+#reset:hover{
+background-color: blueviolet;
+color: white;
+transform:rotateX(360deg) scale(2);
+
+}
